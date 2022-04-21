@@ -3,51 +3,49 @@
 
 ![built-with-love](https://forthebadge.com/images/badges/built-with-love.svg)
 
-This tool is a cross engine fully featured demo analyzing tool. It works with GoldSource and Source-engine demos:
+VolvoWrench - полноценный кросс-движковый инструмент, предназначенный для анализа .dem файлов (демок). Работает с GoldSrc/Source движками.
 ![screenshot](https://i.imgur.com/hfzwuRL.png)
 
 #
-### Features:
-  * Changing font
-  * Parsing demos from any Valve made game except Dota 1/2
-  * Viewing what's happening in the demos (improved version of netdecode)
-  * Global hotkeys
-  * Parsing any Valve made game's save file
+### Особенности инструмента:
+  * Изменение шрифта
+  * Парсинг демо-файлов из любой игры, которая была сделана Valve, кроме Доты.
+  * Просмотр происходящего на демках (улучшенная версия декодера сетевых пакетов)
+  * Глобальные горячие клавиши (hotkeys)
+  * Парсинг любого файла сохранения (.sav) от игр, сделанных Valve.
 
 #
-### Contributing:
-  * Please do.
-  * Create a pull request, and if the code is working, I will most likely merge it.
-  * Please report any bugs, or if you have any feature requests, make an issue here.
-
-![fuck-it-ship-it](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)
+### Собственный вклад в развитие программы:
+  * Делайте это без проблем.
+  * Создавайте Pull Request (PR), и если код будет рабочим, то я, скорее всего, его приму в основную ветвь репозитория.
+  * Пожалуйста, сообщайте о любых ошибках или предлагайте свои идеи, будь это новый функционал, поддержка чего-либо и т.п.
 
 #
-### Upcoming features:
-  * Check the roadmap file for more info! (I will try to update it)
+### Будущие функции:
+  * Проверка roadmap файла для получения дополнительной информации! (попробую обновить)
 
-    If you have any idea for a feature please make an Issue and I will most likely add it.
-
-#
-### Linux & Mac support:
-  * Try with Wine/mono. If it doesn't work, switch to Windows.
+    Если у вас есть идея для функции, пожалуйста, сделайте Issue, и я, скорее всего, реализую это.
 
 #
-### Thanks to:
-  * CBenni for SEDT
-  * Jeffrey "botman" Broome for BSP Tools
-  * stgn for Netdecode
-  * Chrisaster for demo research
-  * asherki for demo research
-  * Didrole for demo research
-  * YaLTeR for his GoldSource demo tools
-  * CSGODemoinfo team for the CSGO demoinfo tool
-  * Complexity gaming for coldemoplayer
-  * WimReddingius for the portal corrections
-  * Griffin for feedback
-  * NekZ for feedback
-  * Fatalis for SourceSplit
-  * NSA for :^)
+### Поддержка операционных систем Linux/MacOS:
+  * Не гарантируется. Используйте специальные инструменты по типу Wine/mono. Если не сработает, переключитесь на ОС Windows.
 
-#### And special thanks to Valve:
+#
+### Спасибо следующим людям:
+  * CBenni за SEDT
+  * Jeffrey "botman" Broome за BSP Tools
+  * stgn за Netdecode
+  * Chrisaster за исследование .dem файлов
+  * asherki за исследование .dem файлов
+  * Didrole за исследование .dem файлов
+  * YaLTeR за его демо-инструменты для движка GoldSrc
+  * CSGODemoinfo команде за CSGO demoinfo tool
+  * Complexity gaming за coldemoplayer
+  * WimReddingius за исправление порталов
+  * Griffin за обратную связь
+  * NekZ за обратную связь
+  * Fatalis за SourceSplit
+  * АНБ за :^) (походу автор здесь имел в виду ихнюю программу Ghidra для реверс-инжиниринга?)
+
+#### И особое спасибо компании Valve:
 ![volvo](https://i.imgur.com/GRSBOdl.jpg)
